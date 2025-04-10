@@ -37,3 +37,15 @@ Put this line your profile.
 
 <pre>oh-my-posh --init --shell pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression</pre>
 or <pre>oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json"</pre>
+
+In vscode, CTRL + , to open settings
+<pre>{
+    "workbench.iconTheme": "material-icon-theme",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "Cascadia Code",
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font"
+}</pre>
